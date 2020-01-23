@@ -5,6 +5,7 @@ using System.Web;
 //Install  entity framework 6 on Tools > Manage Nuget Packages > Microsoft Entity Framework (ver 6.4)
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PetGrooming.Models
 {
@@ -21,5 +22,14 @@ namespace PetGrooming.Models
 
             A booking must reference to a groomer
         */
+        [Key]
+        // primary key
+        public int GroomersID { get; set; }
+
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
+
     }
 }

@@ -150,6 +150,14 @@
     <Compile Include="Migrations\202001151608501_Core_Concepts.designer.cs">
       <DependentUpon>202001151608501_Core_Concepts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001161937351_initial.cs" />
+    <Compile Include="Migrations\202001161937351_initial.designer.cs">
+      <DependentUpon>202001161937351_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001162006136_initial1.cs" />
+    <Compile Include="Migrations\202001162006136_initial1.designer.cs">
+      <DependentUpon>202001162006136_initial1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\GroomBooking.cs" />
     <Compile Include="Models\Groomer.cs" />
@@ -229,6 +237,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001151608501_Core_Concepts.resx">
       <DependentUpon>202001151608501_Core_Concepts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001161937351_initial.resx">
+      <DependentUpon>202001161937351_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001162006136_initial1.resx">
+      <DependentUpon>202001162006136_initial1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

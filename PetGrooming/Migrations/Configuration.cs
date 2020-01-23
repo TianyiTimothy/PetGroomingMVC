@@ -10,7 +10,6 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "PetGrooming.Data.PetGroomingContext";
         }
 
         protected override void Seed(PetGrooming.Data.PetGroomingContext context)
